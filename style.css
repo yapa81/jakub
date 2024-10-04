@@ -1,15 +1,12 @@
-.red {
-    color: red;
+.flex {
+    display: flex;
+    justify-content: space-around;
 }
 
-.blue {
-    color: blue;
-}
-
-#green {
-    color: green;
-}
-
-#grey {
-    color: grey;
+.flex-child {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid red;
+    width: 40%;
 }
